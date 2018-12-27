@@ -30,7 +30,8 @@ defmodule Resamplex.MixProject do
     [
       {:exexec, "~> 0.1"},
       {:poolboy, "~> 1.5"},
-      {:elixir_make, "~> 0.4", runtime: false}
+      {:elixir_make, "~> 0.4", runtime: false},
+      {:ex_doc, ">= 0.0.0", only: :dev},
     ]
   end
 
