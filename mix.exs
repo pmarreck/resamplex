@@ -41,8 +41,8 @@ defmodule Resamplex.MixProject do
   defp package() do
     [
       # These are the default files included in the package
-      files: ~w(lib priv .formatter.exs mix.exs README* readme* LICENSE*
-                license* CHANGELOG* changelog* src c_src/*.c Makefile),
+      files: ~w(lib .formatter.exs mix.exs README* LICENSE*
+                CHANGELOG* c_src/*.c Makefile),
       licenses: ["Apache 2.0"],
       maintainers: ["Peter Marreck"],
       links: %{"GitHub" => "https://github.com/pmarreck/resamplex"}
